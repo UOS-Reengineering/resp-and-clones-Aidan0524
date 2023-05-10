@@ -24,28 +24,17 @@ public class ExtractMethods {
         int[] array2 = new int[10];
         for (int i = 0; i < array2.length; i++) {
             array2[i] = (int) (Math.random() * 10);
-            static int[] initialiseArray(int size) {
-                int[] array = new int[size];
-                for (int i = 0; i < array.length; i++) {
-                    array[i] = (int) (Math.random() * 10);
-                }
-                return array;
-            }
+        }
 
-            // print the array with a given delimiter
-            for (int i = 0; i < array2.length; i++) {
-                System.out.print(array2[i] + delimiter);
-                static void printArrayWithDelimiter(int[] array, String delimiter) {
-                    for (int i = 0; i < array.length; i++) {
-                        System.out.print(array[i] + delimiter);
-                    }
-                    System.out.println();
-                }
+        // print the array with a given delimiter
+        for (int i = 0; i < array2.length; i++) {
+            System.out.print(array2[i] + delimiter);
+        }
+        System.out.println();
+    }
 
-                public static void foo_after_refactoring() {
-                    // TODO: uncomment the following lines and complete missing methods
-                    // initialise an array of random numbers with the size of 10
-                    int[] array1 = initialiseArray(10);
+    public static void foo_after_refactoring() {
+        // TODO: uncomment the following lines and complete missing methods
 
 //        // initialise an array of random numbers with the size of 10
 //        int[] array1 = initialiseArray(10);
@@ -58,15 +47,7 @@ public class ExtractMethods {
 //
 //        // print the array with a given delimiter
 //        printArrayWithDelimiter(array2, " ");
-                }
-                // print the array with a given delimiter
-                printArrayWithDelimiter(array1, " ");
-
-                // initialise another array of random numbers with the size of 10
-                int[] array2 = initialiseArray(10);
-
-            }
-            // print the array with a given delimiter
-            printArrayWithDelimiter(array2, " ");
-        }
     }
+
+
+}
