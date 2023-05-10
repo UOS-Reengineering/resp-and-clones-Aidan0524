@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: example.project.TestExtractMethods
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.025 s <<< FAILURE! - in example.project.TestExtractMethods
+test_foo_after_refactoring  Time elapsed: 0.021 s  <<< ERROR!
+java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1
+	at example.project.TestExtractMethods.test_foo_after_refactoring(TestExtractMethods.java:26)
+
