@@ -28,6 +28,8 @@ public class DotPlot {
                 for(int j = -1; j < sequence2.length; j++){
                     if(j == -1){
                         System.out.print(sequence1[i] + "\t");
+                    }else{
+                        System.out.print(dotPlot[i][j] + "\t");
                     }
                 }
             }

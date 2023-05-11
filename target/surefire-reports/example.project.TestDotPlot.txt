@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: example.project.TestDotPlot
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.023 s <<< FAILURE! - in example.project.TestDotPlot
+test_computeDotPlot  Time elapsed: 0.02 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <t	+	 	 	 	 	 	 	 	 	 	+	 	 	+> but was: <t>
+	at example.project.TestDotPlot.test_computeDotPlot(TestDotPlot.java:48)
+
