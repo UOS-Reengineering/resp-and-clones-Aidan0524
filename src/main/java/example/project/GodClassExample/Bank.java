@@ -93,4 +93,8 @@ public class Bank {
           payroll.changePayDay(staffCategory, date);
     }
 
+    //Task 3 remove navigation code
+    public String getPayrollProcessingDate(String staffCategory) {
+        return payroll.getPayDay(staffCategory);
+    }
 }

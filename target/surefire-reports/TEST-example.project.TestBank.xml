@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="example.project.TestBank" time="0.022" tests="1" errors="0" skipped="0" failures="1">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="example.project.TestBank" time="0.019" tests="1" errors="0" skipped="0" failures="1">
   <properties>
     <property name="java.specification.version" value="14"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="GB"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-14.0.2\bin"/>
-    <property name="sun.java.command" value="C:\Users\hokoo\AppData\Local\Temp\surefire7306537316142096776\surefirebooter16287423498296843130.jar C:\Users\hokoo\AppData\Local\Temp\surefire7306537316142096776 2023-05-11T17-04-51_400-jvmRun1 surefire2406934909681494889tmp surefire_0575868152929443971tmp"/>
+    <property name="sun.java.command" value="C:\Users\hokoo\AppData\Local\Temp\surefire2568074436201214188\surefirebooter14737988713400666463.jar C:\Users\hokoo\AppData\Local\Temp\surefire2568074436201214188 2023-05-11T17-06-06_068-jvmRun1 surefire6671092921312896211tmp surefire_013297158461024937805tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="test" value="TestBank#testBank_new"/>
     <property name="surefire.test.class.path" value="C:\Users\hokoo\Desktop\Software Reengineering\lab\resp-and-clones-Aidan0524\target\test-classes;C:\Users\hokoo\Desktop\Software Reengineering\lab\resp-and-clones-Aidan0524\target\classes;C:\Users\hokoo\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.9.1\junit-jupiter-engine-5.9.1.jar;C:\Users\hokoo\.m2\repository\org\junit\platform\junit-platform-engine\1.9.1\junit-platform-engine-1.9.1.jar;C:\Users\hokoo\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\hokoo\.m2\repository\org\junit\platform\junit-platform-commons\1.9.1\junit-platform-commons-1.9.1.jar;C:\Users\hokoo\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.9.1\junit-jupiter-api-5.9.1.jar;C:\Users\hokoo\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\hokoo\.m2\repository\org\mockito\mockito-core\5.2.0\mockito-core-5.2.0.jar;C:\Users\hokoo\.m2\repository\net\bytebuddy\byte-buddy\1.14.1\byte-buddy-1.14.1.jar;C:\Users\hokoo\.m2\repository\net\bytebuddy\byte-buddy-agent\1.14.1\byte-buddy-agent-1.14.1.jar;C:\Users\hokoo\.m2\repository\org\objenesis\objenesis\3.3\objenesis-3.3.jar;C:\Users\hokoo\.m2\repository\org\mockito\mockito-junit-jupiter\5.2.0\mockito-junit-jupiter-5.2.0.jar;"/>
@@ -31,7 +31,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\hokoo\AppData\Local\Temp\surefire7306537316142096776\surefirebooter16287423498296843130.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\hokoo\AppData\Local\Temp\surefire2568074436201214188\surefirebooter14737988713400666463.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="14.0.2+12-46"/>
@@ -56,7 +56,7 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="58.0"/>
   </properties>
-  <testcase name="testBank_new" classname="example.project.TestBank" time="0.016">
+  <testcase name="testBank_new" classname="example.project.TestBank" time="0.015">
     <failure type="org.opentest4j.AssertionFailedError:">org.opentest4j.AssertionFailedError: 
 	at example.project.TestBank.testBank_new(TestBank.java:60)
 </failure>
