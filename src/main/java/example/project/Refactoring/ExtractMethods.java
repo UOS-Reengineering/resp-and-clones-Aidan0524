@@ -33,7 +33,8 @@ public class ExtractMethods {
         System.out.println();
     }
 
-    //define initialiseArray() method
+    //Task 1: Extract Method
+    // define initialiseArray() method
     static int[] initialiseArray(int arraySize){
         int[] array = new int[arraySize];
         for (int i = 0; i < array.length; i++){
@@ -42,6 +43,8 @@ public class ExtractMethods {
         return array;
     }
 
+    //Task1: Extract Method
+    //define printArrayWithDelimiter() method
     public static void printArrayWithDelimiter(int[] arr, String delimiter){
         for(int i = 0; i < arr.length; i++){
          System.out.print(arr[i] + delimiter);

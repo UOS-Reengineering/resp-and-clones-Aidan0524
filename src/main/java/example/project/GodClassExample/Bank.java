@@ -63,6 +63,7 @@ public class Bank {
 
     // TODO: move this method to BankAccount class
     public double obtainBalance(BankAccount account) {
+
         return account.getBalance();
     }
 
@@ -86,8 +87,10 @@ public class Bank {
     }
 
     // TODO: remove navigation code
+    //Task 3 remove navigation code
     public void changePayrollProcessingDate(String date, String staffCategory) {
-        payroll.getStaffCategoryPaySchedule(staffCategory).payDay = date; // TODO: remove this navigation code
+       // payroll.getStaffCategoryPaySchedule(staffCategory).payDay = date; // TODO: remove this navigation code
+          payroll.changePayDay(staffCategory, date);
     }
 
 }

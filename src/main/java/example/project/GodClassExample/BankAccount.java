@@ -29,4 +29,15 @@ public class BankAccount {
     public Object getAccountNumber() {
         return accountNumber;
     }
+
+    //Task3 move behaviour close to data
+    public double obtainBalance(){
+        return balance;
+    }
+
+    //Task3 move behaviour close to data
+    public void addInterest(){
+      double value = balance * interest;
+      balance = balance + value;
+    }
 }

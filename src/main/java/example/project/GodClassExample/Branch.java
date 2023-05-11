@@ -32,4 +32,16 @@ public class Branch {
         this.telephone = telephone;
     }
 
+
+    //Task3 move behaviour close to the data
+    public void changeOpeningTime(String openingTime){
+        this.openingTime = openingTime;
+    }
+
+    //Task3 move behaviour close to the data
+    public void registerTelephone(String telephone){
+        this.telephone = telephone;
+    }
+
+
 }
